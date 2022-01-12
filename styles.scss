@@ -47,53 +47,54 @@ $Light-Violet: hsl(264, 100%, 61%);
 
 body{
     width: 100vw;
-    height: auto;
-    overflow: hidden;
-    
+    height: 100vh;
+    overflow-x: hidden;
+
     .bubble-1{
-        width: 600px;
-        height: 705px;
+        width: 500px;
+        height: 500px;
         position: absolute;
         top: 0;
-        left: -200px;
+        left: -310px;;
         border-radius: 0px 0px 999px 999px;
         background: linear-gradient(top, $Light-Magenta, $Light-Violet);
     }
     
 
     .bubble-2{
-        width: 600px;
-        height: 705px;
+        width: 500px;
+        height: 500px;
+        right: -310px;
         position: absolute;
         bottom: 0;
-        right: -200px;
         border-radius: 999px 999px 0px 0px ;
         background: linear-gradient(top, #f7f5fa, #f9f4fa);
     }
 }
 
-@media screen and (max-width: 800px){
-    body{
-        width: 100vw;
-        height: auto;
-        overflow-x: hidden;
+// @media screen and (max-width: 800px){
+//     body{
+//         width: 100vw;
+//         height: 100vh;
+//         overflow-x: hidden;
 
-        .bubble-1{
-            width: 500px;
-            height: 500px;
-            top: 0;
-            left:-310px;;
+//         .bubble-1{
+//             width: 500px;
+//             height: 500px;
+//             top: 0;
+//             left: -310px;;
             
-        }
+//         }
 
-        .bubble-2{
-            width: 500px;
-            height: 500px;
-            bottom: -250px;
-            right: -310px;
-        }
-    }
-}
+//         .bubble-2{
+//             width: 500px;
+//             height: 500px;
+//             bottom: -250px;
+//             right: -310px;
+//             border: 2px dashed black;
+//         }
+//     }
+// }
     
     
 
