@@ -338,3 +338,69 @@ body{
     }
     
 }
+
+@media screen and (max-width: 800px){
+    body, html {
+        overflow-x: hidden;
+    }
+    
+    body{
+        
+
+        .bubble-1{
+            width: 500px;
+            height: 500px;
+            top: 0;
+            left: -310px;
+            
+        }
+
+        main{
+            width: 100%;
+            max-width: 1000px;
+            height: auto;
+            z-index: 1;
+            display: block;
+            padding: 300px 0px 80px 0px;
+
+            .smartphone{
+                width: 260px;
+                height: 550px;
+                border-radius: 30px;
+                border: 12px solid $White;
+                background-color: $Light-Grayish-Violet;
+                position: relative;
+                box-shadow: 0px 0px 0px 1px gainsboro;
+                margin: 0px auto;
+            }
+
+            .text{
+                    margin-top: 80px;
+                    text-align: center;
+
+                h1{
+                    font-family: "relik2";
+                    font-size: 40px;
+                    color: $Very-Dark-Desaturated-Violet;
+                    margin-bottom: 26px;
+                }
+                p{
+                    width: 100%;
+                    max-width: 315px;
+                    height: auto;
+                    font-family: "relik1";
+                    line-height: 26px;
+                    color: #a19ea5;
+                    margin: 0px auto;
+                }
+            }
+        }
+
+       .bubble-2{
+            width: 500px;
+            height: 500px;
+            top: 515px;
+            right: -310px;
+       }
+    }
+}
